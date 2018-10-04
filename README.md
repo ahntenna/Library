@@ -6,8 +6,8 @@
 
 <a href="http://bestcoding.tistory.com/">My Website</a>
 
-'''java
+```java
 public void main(String[] args) {
 System.out.println("Hello, World");
 }
-'''
+```
