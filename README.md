@@ -2,8 +2,16 @@
   
 ## 강조(Emphasis)  
   
+<p>
+이텔릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용.<br>
+두껍게는 **별표(asterisks)** 혹은 __언더바(underscore)__를 사용.<br>
+**_이텔릭체_와 두껍게**를 같이 사용.<br>
+취소선은 ~~물결표시(tilde)~~를 사용.<br>
+<u>밑줄</u>은 `<u></u>`를 사용.<br>
+</p>
+
 이텔릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용.  
-두껍게는 **별표(asterisks)** 혹은 __언더바(underscore)__를 사용.  
+두껍게는 **별표(asterisks)** 혹은 __언더바(underscore)__를 사용.
 **_이텔릭체_와 두껍게**를 같이 사용.  
 취소선은 ~~물결표시(tilde)~~를 사용.  
 <u>밑줄</u>은 `<u></u>`를 사용.  
@@ -27,6 +35,16 @@
 ## 코드 (Code)  
   
 `JAVA CODE`
+<p>
+```java<br>
+public class Ahntenna {<br>
+	public void main(String[] args) {<br>
+		System.out.println("Hi");<br>
+	}<br>
+}<br>
+```<br>
+</p>
+
 ```java
 public class Ahntenna {
 	public void main(String[] args) {
@@ -37,30 +55,30 @@ public class Ahntenna {
   
 ## 테이블 (Table)  
   
-| Available |
-|-----------|
-| Java      |
-| Android   |
-| PHP       |
-| MySQL     |
-| ...       |
+| Available |Level|
+|-----------|-----|
+| Java      |3    |
+| Android   |3    |
+| PHP       |2    |
+| MySQL     |1    |
+| ...       |...  |
 
 ## 인용문 (BlockQuote)  
   
 인용문(blockQuote)  
   
 > 남의 말이나 글에서 직접 또는 간접으로 따온 문장.  
+
 > _(네이버 국어 사전)_  
 
 BREAK!
 
 > 인용문을 작성하세요!  
 >> 중첩된 인용문(nested blockquote)을 만들 수 있다.  
->>> 중중첩된 인용문 1  
+>> 중첩된 인용문 1  
 >>> 중중첩된 인용문 2  
->>>> 중중첩된 인용문 3  
-> 다시 처음으로  
-  
----
+>>>> 중중중첩된 인용문 3  
+
+> 다시 처음으로
 
 
