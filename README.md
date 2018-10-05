@@ -3,11 +3,11 @@
 ## 강조(Emphasis)  
   
 <p>
-이텔릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용.  
-두껍게는 **별표(asterisks)** 혹은 __언더바(underscore)__를 사용.  
-**_이텔릭체_와 두껍게**를 같이 사용.  
-취소선은 ~~물결표시(tilde)~~를 사용.  
-<u>밑줄</u>은 `<u></u>`를 사용.  
+이텔릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용.<br>
+두껍게는 **별표(asterisks)** 혹은 __언더바(underscore)__를 사용.<br>
+**_이텔릭체_와 두껍게**를 같이 사용.<br>
+취소선은 ~~물결표시(tilde)~~를 사용.<br>
+<u>밑줄</u>은 `<u></u>`를 사용.<br>
 </p>
 
 이텔릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용.  
@@ -36,13 +36,13 @@
   
 `JAVA CODE`
 <p>
-```java
-public class Ahntenna {
-	public void main(String[] args) {
-		System.out.println("Hi");
-	}
-}
-```
+```java<br>
+public class Ahntenna {<br>
+	public void main(String[] args) {<br>
+		System.out.println("Hi");<br>
+	}<br>
+}<br>
+```<br>
 </p>
 
 ```java
@@ -75,12 +75,10 @@ BREAK!
 
 > 인용문을 작성하세요!  
 >> 중첩된 인용문(nested blockquote)을 만들 수 있다.  
->>> 중중첩된 인용문 1  
+>> 중첩된 인용문 1  
 >>> 중중첩된 인용문 2  
->>>> 중중첩된 인용문 3  
+>>>> 중중중첩된 인용문 3  
 
-> 다시 처음으로  
-  
----
+> 다시 처음으로
 
 
